@@ -4,27 +4,27 @@ const Footer = () => {
     return (
         <>
             {/* footer link start */}
-            <footer class="footer-1 ptb-60 gradient-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-4 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
-                            <a href="/#" class="navbar-brand mb-2">
-                                <img src="/img/logo-white.png" alt="logo" class="img-fluid" />
+            <footer className="footer-1 ptb-60 gradient-bg">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 col-lg-4 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
+                            <a href="/#" className="navbar-brand mb-2">
+                                <img src="/img/logo-white.png" alt="logo" className="img-fluid" />
                             </a>
                             <br/>
                             <p>Dynamically re-engineer high standards in functiona with alternative paradigms. Conveniently monetize resource maximizing initiatives.</p>
-                            <ul class="list-inline social-list-default background-color social-hover-2 mt-2">
-                                <li class="list-inline-item"><a class="twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a class="youtube" href="https://youtube.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></li>
-                                <li class="list-inline-item"><a class="linkedin" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li class="list-inline-item"><a class="dribbble" href="https://dribbble.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-dribbble"></i></a></li>
-                                <li class="list-inline-item"><a class="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                            <ul className="list-inline social-list-default background-color social-hover-2 mt-2">
+                                <li className="list-inline-item"><a className="twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                                <li className="list-inline-item"><a className="youtube" href="https://youtube.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a></li>
+                                <li className="list-inline-item"><a className="linkedin" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
+                                <li className="list-inline-item"><a className="dribbble" href="https://dribbble.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-dribbble"></i></a></li>
+                                <li className="list-inline-item"><a className="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-12 col-lg-8">
-                            <div class="row mt-0">
-                                <div class="col-sm-6 col-md-3 col-lg-3 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
-                                    <h6 class="font-weight-normal">Recuersos</h6>
+                        <div className="col-md-12 col-lg-8">
+                            <div className="row mt-0">
+                                <div className="col-sm-6 col-md-3 col-lg-3 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
+                                    <h6 className="font-weight-normal">Recuersos</h6>
                                     <ul>
                                         <li>
                                             <a href="/#">Auyda</a>
@@ -43,8 +43,8 @@ const Footer = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-6 col-md-3 col-lg-3 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
-                                    <h6 class="font-weight-normal">Productos</h6>
+                                <div className="col-sm-6 col-md-3 col-lg-3 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
+                                    <h6 className="font-weight-normal">Productos</h6>
                                     <ul>
                                         <li>
                                             <a href="/#">Precios</a>
@@ -63,8 +63,8 @@ const Footer = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-6 col-md-3 col-lg-3 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
-                                    <h6 class="font-weight-normal">Empresa</h6>
+                                <div className="col-sm-6 col-md-3 col-lg-3 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
+                                    <h6 className="font-weight-normal">Empresa</h6>
                                     <ul>
                                         <li>
                                             <a href="/#">Conócenos</a>
@@ -83,8 +83,8 @@ const Footer = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-6 col-md-3 col-lg-3">
-                                    <h6 class="font-weight-normal">Soporte</h6>
+                                <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <h6 className="font-weight-normal">Soporte</h6>
                                     <ul>
                                         <li>
                                             <a href="/#">FAQ</a>
@@ -111,20 +111,20 @@ const Footer = () => {
             {/* footer link end */}
 
             {/* footer bottom copyright start */}
-            <div class="footer-bottom py-3 gray-light-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-7">
-                            <div class="copyright-wrap small-text">
-                                <p class="mb-0">&copy; MasterHostPeru. Desarrollado por Ronald López. Todos los derechos reservados.</p>
+            <div className="footer-bottom py-3 gray-light-bg">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6 col-lg-7">
+                            <div className="copyright-wrap small-text">
+                                <p className="mb-0">&copy; MasterHostPeru. Desarrollado por Ronald López. Todos los derechos reservados.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-5">
-                            <div class="terms-policy-wrap text-lg-right text-md-right text-left">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><a class="small-text" href="/terms-condition.html">Términos & Condiciones</a></li>
-                                    <li class="list-inline-item"><a class="small-text" href="/#">Seguridad</a></li>
-                                    <li class="list-inline-item"><a class="small-text" href="/privacy-policy.html">Políticas de privacidad</a></li>
+                        <div className="col-md-6 col-lg-5">
+                            <div className="terms-policy-wrap text-lg-right text-md-right text-left">
+                                <ul className="list-inline">
+                                    <li className="list-inline-item"><a className="small-text" href="/terms-condition.html">Términos & Condiciones</a></li>
+                                    <li className="list-inline-item"><a className="small-text" href="/#">Seguridad</a></li>
+                                    <li className="list-inline-item"><a className="small-text" href="/privacy-policy.html">Políticas de privacidad</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -134,8 +134,8 @@ const Footer = () => {
             {/* footer bottom copyright end */}
 
             {/* scroll bottom to top button start */}
-            <div class="scroll-top scroll-to-target primary-bg text-white" data-target="html">
-                <span class="fas fa-hand-point-up"></span>
+            <div className="scroll-top scroll-to-target primary-bg text-white" data-target="html">
+                <span className="fas fa-hand-point-up"></span>
             </div>
             {/* scroll bottom to top button end */}
         </>

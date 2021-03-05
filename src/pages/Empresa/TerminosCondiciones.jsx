@@ -3,16 +3,16 @@ import React from 'react'
 const TerminosCondiciones = () => {
     return (
         <div>
-            <div class="main">
+            <div className="main">
 
                 {/* page header section start */}
-                <section class="page-header-section ptb-120 gradient-bg">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-9 col-lg-8">
-                                <div class="section-heading text-center text-white">
-                                    <h2 class="text-white">Terms & Condition</h2>
-                                    <p class="lead">Collaboratively maximize fully researched process improvements via robust potentialities through standards compliant synergy.</p>
+                <section className="page-header-section ptb-120 gradient-bg">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-md-9 col-lg-8">
+                                <div className="section-heading text-center text-white">
+                                    <h2 className="text-white">Términos & Condiciones</h2>
+                                    <p className="lead">Collaboratively maximize fully researched process improvements via robust potentialities through standards compliant synergy.</p>
                                 </div>
                             </div>
                         </div>
@@ -22,16 +22,16 @@ const TerminosCondiciones = () => {
 
 
                 {/* terms & condition start */}
-                <section class="terms-condition ptb-100">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12">
-                                <div class="content-with-sidebar">
-                                    <div class="section-heading">
+                <section className="terms-condition ptb-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12 col-lg-12">
+                                <div className="content-with-sidebar">
+                                    <div className="section-heading">
                                         <h3>Welcome to Kohost Terms & conditions</h3>
-                                        <p class="lead">Effective date: 1 January 2020</p>
+                                        <p className="lead">Effective date: 1 January 2020</p>
                                     </div>
-                                    <div id="nav-id-1" class="pt-5">
+                                    <div id="nav-id-1" className="pt-5">
                                         <p>These terms and conditions outline the rules and regulations for the use of Kohost's Website.</p> <br />
                                         <p>By accessing this website we assume you accept these terms and conditions in full. Do not continue to use Kohost's website
                                             if you do not accept all of the terms and conditions stated on this page.</p>
@@ -64,7 +64,7 @@ const TerminosCondiciones = () => {
                                         </ol>
                                         <p>Redistribute content from Kohost (unless content is specifically made for redistribution).</p>
                                     </div>
-                                    <div id="nav-id-2" class="pt-5">
+                                    <div id="nav-id-2" className="pt-5">
                                         <h5>Hyperlinking to our Content</h5>
                                         <ol>
                                             <li>The following organizations may link to our Web site without prior written approval:
@@ -129,19 +129,19 @@ const TerminosCondiciones = () => {
                                             agreement.</p>
                                     </div>
 
-                                    <div id="nav-id-3" class="pt-5">
+                                    <div id="nav-id-3" className="pt-5">
                                         <h5>Iframes</h5>
                                         <p>Without prior approval and express written permission, you may not create frames around our Web pages or
                                             use other techniques that alter in any way the visual presentation or appearance of our Web site.</p>
                                     </div>
-                                    <div id="nav-id-4" class="pt-5">
+                                    <div id="nav-id-4" className="pt-5">
                                         <h5>Reservation of Rights</h5>
                                         <p>We reserve the right at any time and in its sole discretion to request that you remove all links or any particular
                                             link to our Web site. You agree to immediately remove all links to our Web site upon such request. We also
                                             reserve the right to amend these terms and conditions and its linking policy at any time. By continuing
                                             to link to our Web site, you agree to be bound to and abide by these linking terms and conditions.</p>
                                     </div>
-                                    <div id="nav-id-5" class="pt-5">
+                                    <div id="nav-id-5" className="pt-5">
                                         <h5>Removal of links from our website</h5>
                                         <p>If you find any link on our Web site or any linked web site objectionable for any reason, you may contact
                                             us about this. We will consider requests to remove links but will have no obligation to do so or to respond
@@ -150,7 +150,7 @@ const TerminosCondiciones = () => {
                                             or accuracy; nor do we commit to ensuring that the website remains available or that the material on the
                                             website is kept up to date.</p>
                                     </div>
-                                    <div id="nav-id-6" class="pt-5">
+                                    <div id="nav-id-6" className="pt-5">
                                         <h5>Content Liability</h5>
                                         <p>We shall have no responsibility or liability for any content appearing on your Web site. You agree to indemnify
                                             and defend us against all claims arising out of or based upon your Website. No link(s) may appear on any
@@ -158,7 +158,7 @@ const TerminosCondiciones = () => {
                                             libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or
                                             other violation of, any third party rights.</p>
                                     </div>
-                                    <div id="nav-id-7" class="pt-5">
+                                    <div id="nav-id-7" className="pt-5">
                                         <h5>Disclaimer</h5>
                                         <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website (including, without limitation, any warranties implied by law in respect of satisfactory quality, fitness for purpose and/or the use of reasonable care and skill). Nothing in this disclaimer will:</p>
                                         <ol>

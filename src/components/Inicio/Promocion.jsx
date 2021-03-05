@@ -3,52 +3,52 @@ import React from 'react'
 const Promocion = () => {
     return (
         <>
-            <section class="promo-section ptb-100 ">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-10 col-lg-7">
-                            <div class="section-heading text-center">
+            <section className="promo-section ptb-100 ">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-md-10 col-lg-7">
+                            <div className="section-heading text-center">
                                 <h2>Le brindamos el más completo servicio de alojamiento</h2>
                                 <p>Uniquely repurpose strategic core competencies with progressive content. Assertively transition ethical imperatives and collaborative manufactured products. </p>
                             </div>
                         </div>
                     </div>
-                    <div class="row justify-content-md-center justify-content-sm-center">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card single-promo-card single-promo-hover text-center p-2 mt-4">
-                                <div class="card-body">
-                                    <div class="pb-2">
-                                        <span class="fas fa-cubes icon-size-lg color-primary"></span>
+                    <div className="row justify-content-md-center justify-content-sm-center">
+                        <div className="col-md-6 col-lg-4">
+                            <div className="card single-promo-card single-promo-hover text-center p-2 mt-4">
+                                <div className="card-body">
+                                    <div className="pb-2">
+                                        <span className="fas fa-cubes icon-size-lg color-primary"></span>
                                     </div>
-                                    <div class="pt-2 pb-3">
+                                    <div className="pt-2 pb-3">
                                         <h5>Fully functional</h5>
-                                        <p class="mb-0">Phosfluorescently target bleeding sources through viral methodsp progressively expedite empowered.</p>
+                                        <p className="mb-0">Phosfluorescently target bleeding sources through viral methodsp progressively expedite empowered.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card single-promo-card single-promo-hover text-center p-2 mt-4">
-                                <div class="card-body">
-                                    <div class="pb-2">
-                                        <span class="fas fa-headset icon-size-lg color-primary"></span>
+                        <div className="col-md-6 col-lg-4">
+                            <div className="card single-promo-card single-promo-hover text-center p-2 mt-4">
+                                <div className="card-body">
+                                    <div className="pb-2">
+                                        <span className="fas fa-headset icon-size-lg color-primary"></span>
                                     </div>
-                                    <div class="pt-2 pb-3">
+                                    <div className="pt-2 pb-3">
                                         <h5>24/7 Live Chat</h5>
-                                        <p class="mb-0">Enthusiastically productivate interactive interfaces after energistically scale client-centered catalysts.</p>
+                                        <p className="mb-0">Enthusiastically productivate interactive interfaces after energistically scale client-centered catalysts.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card single-promo-card single-promo-hover text-center p-2 mt-4">
-                                <div class="card-body">
-                                    <div class="pb-2">
-                                        <span class="fas fa-lock icon-size-lg color-primary"></span>
+                        <div className="col-md-6 col-lg-4">
+                            <div className="card single-promo-card single-promo-hover text-center p-2 mt-4">
+                                <div className="card-body">
+                                    <div className="pb-2">
+                                        <span className="fas fa-lock icon-size-lg color-primary"></span>
                                     </div>
-                                    <div class="pt-2 pb-3">
+                                    <div className="pt-2 pb-3">
                                         <h5>Secure Data</h5>
-                                        <p class="mb-0">Synergistically architect virtual content solutions. Monotonectally communicate cooperative solutions.</p>
+                                        <p className="mb-0">Synergistically architect virtual content solutions. Monotonectally communicate cooperative solutions.</p>
                                     </div>
                                 </div>
                             </div>

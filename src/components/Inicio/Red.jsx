@@ -3,21 +3,21 @@ import React from 'react'
 const Red = () => {
     return (
         <>
-            <section class="network-map-section ptb-100 gray-light-bg">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-9 col-lg-8">
-                            <div class="section-heading text-center mb-5">
+            <section className="network-map-section ptb-100 gray-light-bg">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-md-9 col-lg-8">
+                            <div className="section-heading text-center mb-5">
                                 <h2>Our Data centers Location</h2>
-                                <p class="lead">Cloudhub offers a low latency worldwide network, enabling you to deploy your
+                                <p className="lead">Cloudhub offers a low latency worldwide network, enabling you to deploy your
                                     service infrastructure in close proximity to your customer base.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="network-map-wrap">
-                                <ul class="custom-map-location">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="network-map-wrap">
+                                <ul className="custom-map-location">
                                     <li style={{top: '29%', left: '15.5%', }}>
                                         <span data-toggle="tooltip" data-placement="top" title="Canada"></span>
                                     </li>

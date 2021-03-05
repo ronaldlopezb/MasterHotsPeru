@@ -334,13 +334,6 @@ const Nosotros = () => {
                     </div>
                 </div>
             </section>
-
-
-
-            
-
-
-
         </>
     )
 }

@@ -4,9 +4,9 @@ const Preload = () => {
     return (
         <div>
             <div id="preloader">
-                <div class="preloader-wrap">
-                    <img src="/img/logo-color.png" alt="logo" class="img-fluid" />
-                    <div class="preloader">
+                <div className="preloader-wrap">
+                    <img src="/img/logo-color.png" alt="logo" className="img-fluid" />
+                    <div className="preloader">
                         <i>.</i>
                         <i>.</i>
                         <i>.</i>
