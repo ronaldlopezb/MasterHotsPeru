@@ -2,7 +2,7 @@ import React from 'react'
 
 const TerminosCondiciones = () => {
     return (
-        <div>
+        <>
             <div className="main">
 
                 {/* page header section start */}
@@ -182,7 +182,7 @@ const TerminosCondiciones = () => {
                 </section>
                 {/* terms & condition end */}
             </div>
-        </div>
+        </>
     )
 }
 
