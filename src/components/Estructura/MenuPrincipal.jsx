@@ -148,8 +148,8 @@ const MenuPrincipal = () => {
                                                 <a id="navLinkPagesBlog" className="nav-link sub-menu-nav-link sub-link-toggle" href="/#" aria-controls="navSubmenuPagesBlog">Blog</a>
 
                                                 <ul id="navSubmenuPagesBlog" className="hs-sub-menu main-sub-menu" aria-labelledby="navLinkPagesBlog" style={{minwidth: '230px',}}>
-                                                    <li><a className="nav-link sub-menu-nav-link" href="/blog-grid.html">Blog Grid</a></li>
-                                                    <li><a className="nav-link sub-menu-nav-link" href="/blog-details.html">Blog Details</a></li>
+                                                    <li><a className="nav-link sub-menu-nav-link" href="/blog">Blog</a></li>
+                                                    <li><a className="nav-link sub-menu-nav-link" href="/articulo">Artículo</a></li>
                                                 </ul>
                                             </li>
 

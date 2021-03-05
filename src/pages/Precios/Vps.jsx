@@ -2,7 +2,7 @@ import React from 'react'
 
 const Vps = () => {
     return (
-        <div>
+        <>
             <div className="main">
 
                 {/* page header section start */}
@@ -449,7 +449,7 @@ const Vps = () => {
                 </section>
                 {/* faq new style end */}
             </div>
-        </div>
+        </>
     )
 }
 

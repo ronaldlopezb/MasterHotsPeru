@@ -17,6 +17,9 @@ import WindowsHosting from './pages/Precios/WindowsHosting'
 import ComparacionPrecios from './pages/Precios/ComparacionPrecios'
 import Vps from './pages/Precios/Vps'
 
+import BlogGrid from './pages/Blog/BlogGrid';
+import Articulo from './pages/Blog/Articulo'
+
 
 
 import {
@@ -26,6 +29,7 @@ import {
 } from "react-router-dom";
 
 
+
 function App() {
   return (
     <>
@@ -33,6 +37,14 @@ function App() {
         <MenuPrincipal />
 
         <Switch>
+
+          <Route path="/articulo" exact component={Articulo} >
+            <Articulo/>
+          </Route>
+
+          <Route path="/blog" exact component={BlogGrid} >
+            <BlogGrid/>
+          </Route>
 
           <Route path="/vps" exact component={Vps} >
             <Vps/>
