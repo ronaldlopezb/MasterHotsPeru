@@ -157,26 +157,26 @@ const MenuPrincipal = () => {
                                                 <a id="navLinkPagesSpecialty" className="nav-link sub-menu-nav-link sub-link-toggle" href="/#" aria-controls="navSubmenuPagesSpecialty">Specialty</a>
 
                                                 <ul id="navSubmenuPagesSpecialty" className="hs-sub-menu main-sub-menu" aria-labelledby="navLinkPagesSpecialty" style={{minwidth: '230px',}}>
-                                                    <li><a className="nav-link sub-menu-nav-link" href="/domain-search-result.html">Search Result <span className="badge badge-warning ml-2">New</span></a></li>
-                                                    <li><a className="nav-link sub-menu-nav-link" href="/cover-page.html">Cover Page</a></li>
-                                                    <li><a className="nav-link sub-menu-nav-link" href="/coming-soon.html">Coming Soon</a></li>
-                                                    <li><a className="nav-link sub-menu-nav-link" href="/thank-you.html">Thank You</a></li>
-                                                    <li><a className="nav-link sub-menu-nav-link" href="/404.html">Error 404</a></li>
+                                                    <li><a className="nav-link sub-menu-nav-link" href="/resultado-buscar-dominio">Resultado de búsqueda <span className="badge badge-warning ml-2">New</span></a></li>
+                                                    <li><a className="nav-link sub-menu-nav-link" href="/cover">Cover</a></li>
+                                                    <li><a className="nav-link sub-menu-nav-link" href="/pronto-en-linea">Pronto en linea</a></li>
+                                                    <li><a className="nav-link sub-menu-nav-link" href="/agradecimiento">Agradecimiento</a></li>
+                                                    <li><a className="nav-link sub-menu-nav-link" href="/404">Error 404</a></li>
                                                 </ul>
                                             </li>
 
                                             <li className="hs-has-sub-menu">
-                                                <a id="navLinkPagesLogin" className="nav-link sub-menu-nav-link sub-link-toggle" href="/#" aria-controls="navSubmenuPagesLogin">Login &amp; Signup</a>
+                                                <a id="navLinkPagesLogin" className="nav-link sub-menu-nav-link sub-link-toggle" href="/#" aria-controls="navSubmenuPagesLogin">Acceso &amp; Registro</a>
 
                                                 <ul id="navSubmenuPagesLogin" className="hs-sub-menu main-sub-menu" aria-labelledby="navLinkPagesLogin" style={{minwidth: '230px',}}>
                                                     <li>
-                                                        <a className="nav-link sub-menu-nav-link" href="/login.html">Login</a>
+                                                        <a className="nav-link sub-menu-nav-link" href="/acceder">Acceder</a>
                                                     </li>
                                                     <li>
-                                                        <a className="nav-link sub-menu-nav-link" href="/sign-up.html">Signup</a>
+                                                        <a className="nav-link sub-menu-nav-link" href="/registro">Registro</a>
                                                     </li>
                                                     <li>
-                                                        <a className="nav-link sub-menu-nav-link" href="/password-reset.html">Recover Account</a>
+                                                        <a className="nav-link sub-menu-nav-link" href="/recuperar-cuenta">Recuperar cuenta</a>
                                                     </li>
                                                 </ul>
                                             </li>

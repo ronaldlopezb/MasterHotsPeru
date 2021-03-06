@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Promocion = () => {
+const Caracteristicas01 = () => {
     return (
         <>
             <section className="promo-section ptb-100 ">
@@ -60,4 +60,4 @@ const Promocion = () => {
     )
 }
 
-export default Promocion
+export default Caracteristicas01

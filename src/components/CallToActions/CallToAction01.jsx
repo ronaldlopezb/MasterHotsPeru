@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CallToAction = () => {
+const CallToAction01 = () => {
     return (
         <>
             {/* call to action start */}
@@ -29,4 +29,4 @@ const CallToAction = () => {
     )
 }
 
-export default CallToAction
+export default CallToAction01

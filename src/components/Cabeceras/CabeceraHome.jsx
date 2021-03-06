@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BannerPrincipal = () => {
+const CabeceraHome = () => {
     return (
         <>
             <div className="main">
@@ -10,9 +10,9 @@ const BannerPrincipal = () => {
                             <div className="col-md-12 col-lg-6">
                                 <div className="hero-slider-content text-white py-5">
                                     <div className="headline mb-4">
-                                        <p className="mb-0"><i className="fas fa-bell rounded-circle mr-2"></i> <span className="font-weight-bold">30% Discount </span> first annual purchase</p>
+                                        <p className="mb-0"><i className="fas fa-bell rounded-circle mr-2"></i> <span className="font-weight-bold">30% de descuento </span> en el primer año de contratación</p>
                                     </div>
-                                    <h1 className="text-white">Unlimited Domain & Hosting in One Platform</h1>
+                                    <h1 className="text-white">Home - Unlimited Domain & Hosting in One Platform</h1>
                                     <p className="lead">A ton of website hosting options, 99.9% uptime guarantee, free SSL certificate, easy WordPress installs.</p>
 
                                     <div className="action-btns mt-4">
@@ -33,4 +33,4 @@ const BannerPrincipal = () => {
     )
 }
 
-export default BannerPrincipal
+export default CabeceraHome

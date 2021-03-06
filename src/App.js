@@ -20,6 +20,18 @@ import Vps from './pages/Precios/Vps'
 import BlogGrid from './pages/Blog/BlogGrid';
 import Articulo from './pages/Blog/Articulo'
 
+import ResultadosBusqueda from './pages/Especialidad/ResultadosBusqueda'
+import Cover from './pages/Especialidad/Cover'
+import Coming from './pages/Especialidad/Coming'
+import Agradecimiento from './pages/Especialidad/Agradecimiento'
+import Error404 from './pages/Especialidad/Error404'
+
+import Login from './pages/LoginRegister/Login'
+import Registrar from './pages/LoginRegister/Registrar'
+import RecuperarClave from './pages/LoginRegister/RecuperarClave'
+
+
+
 
 
 import {
@@ -37,6 +49,38 @@ function App() {
         <MenuPrincipal />
 
         <Switch>
+
+          <Route path="/recuperar-cuenta" exact component={RecuperarClave} >
+            <RecuperarClave/>
+          </Route>
+
+          <Route path="/registro" exact component={Registrar} >
+            <Registrar/>
+          </Route>
+
+          <Route path="/acceder" exact component={Login} >
+            <Login/>
+          </Route>
+
+          <Route path="/404" exact component={Error404} >
+            <Error404/>
+          </Route>
+
+          <Route path="/agradecimiento" exact component={Agradecimiento} >
+            <Agradecimiento/>
+          </Route>
+
+          <Route path="/pronto-en-linea" exact component={Coming} >
+            <Coming/>
+          </Route>
+
+          <Route path="/cover" exact component={Cover} >
+            <Cover/>
+          </Route>
+
+          <Route path="/resultado-buscar-dominio" exact component={ResultadosBusqueda} >
+            <ResultadosBusqueda/>
+          </Route>
 
           <Route path="/articulo" exact component={Articulo} >
             <Articulo/>

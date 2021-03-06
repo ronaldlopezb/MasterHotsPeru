@@ -1,32 +1,30 @@
 import React from 'react'
 
-import BannerPrincipal from '../../components/Inicio/BannerPrincipal'
-//import Preload from '../../components/Inicio/Preload'
-import DominioBuscador from '../../components/Inicio/DominioBuscador'
-import Promocion from '../../components/Inicio/Promocion'
-import CallToAction from '../../components/Inicio/CallToAction'
-import Servicios from '../../components/Inicio/Servicios'
-import Herramientas from '../../components/Inicio/Herramientas'
-import PlanPrecios from '../../components/Inicio/PlanPrecios'
-import Caracterisitcas from '../../components/Inicio/Caracterisitcas'
-import CallToAction2 from '../../components/Inicio/CallToAction2'
-import Red from '../../components/Inicio/Red'
-import Testimonios from '../../components/Inicio/Testimonios'
-import Blog from '../../components/Inicio/Blog'
-import Equipo from '../../components/Inicio/Equipo'
+import CabeceraHome from '../../components/Cabeceras/CabeceraHome'
+//import Preload from '../../components/Preload/Preload'
+import DominioBuscador from '../../components/Dominio/DominioBuscador'
+import Caracteristicas01 from '../../components/Caracteristicas/Caracteristicas01'
+import CallToAction01 from '../../components/CallToActions/CallToAction01'
+import Herramientas from '../../components/Caracteristicas/Herramientas'
+import PlanPrecios from '../../components/Precios/PlanPrecios'
+import Caracteristicas02 from '../../components/Caracteristicas/Caracteristicas02'
+import CallToAction2 from '../../components/CallToActions/CallToAction2'
+import Red from '../../components/Caracteristicas/Red'
+import Testimonios from '../../components/Caracteristicas/Testimonios'
+import Blog from '../../components/Blog/Blog'
+import Equipo from '../../components/Caracteristicas/Equipo'
 
 const Inicio = () => {
     return (
         <>
-            {/* <Preload /> */}
-            <BannerPrincipal />
+            {/* <Preload />*/}
+            <CabeceraHome />
             <DominioBuscador />
-            <Promocion />
-            <CallToAction />
-            <Servicios />
+            <Caracteristicas01 />
+            <CallToAction01 />
             <Herramientas />
             <PlanPrecios />
-            <Caracterisitcas />
+            <Caracteristicas02 />
             <CallToAction2 />
             <Red />
             <Testimonios />

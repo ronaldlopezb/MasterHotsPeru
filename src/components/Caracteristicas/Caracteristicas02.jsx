@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Cloud99 = () => {
+const Caracteristicas02 = () => {
     return (
         <>
             <div className="feature-section ptb-100 ">
@@ -39,4 +39,4 @@ const Cloud99 = () => {
     )
 }
 
-export default Cloud99
+export default Caracteristicas02
