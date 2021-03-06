@@ -33,7 +33,6 @@ import RecuperarClave from './pages/LoginRegister/RecuperarClave'
 
 
 
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -47,7 +46,6 @@ function App() {
     <>
       <Router>
         <MenuPrincipal />
-
         <Switch>
 
           <Route path="/recuperar-cuenta" exact component={RecuperarClave} >
@@ -145,9 +143,6 @@ function App() {
         </Switch>
         <Footer/>
       </Router>
-
-
-
     </>
   );
 }
