@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Preload from '../../components/Preload/Preload'
+
 const Nosotros = () => {
     return (
         <>
+            <Preload />
+
             <section className="ptb-120 gradient-bg">
                 <div className="container">
                     <div className="row justify-content-center">

@@ -1,7 +1,7 @@
 import React from 'react'
 
+import Preload from '../../components/Preload/Preload'
 import CabeceraHome from '../../components/Cabeceras/CabeceraHome'
-//import Preload from '../../components/Preload/Preload'
 import DominioBuscador from '../../components/Dominio/DominioBuscador'
 import Caracteristicas01 from '../../components/Caracteristicas/Caracteristicas01'
 import CallToAction01 from '../../components/CallToActions/CallToAction01'
@@ -17,7 +17,7 @@ import Equipo from '../../components/Caracteristicas/Equipo'
 const Inicio = () => {
     return (
         <>
-            {/* <Preload />*/}
+            <Preload />
             <CabeceraHome />
             <DominioBuscador />
             <Caracteristicas01 />
