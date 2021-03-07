@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonios = () => {
     return (
-        <div>
+        <>
             <section className="review-section ptb-100 ">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -181,7 +181,7 @@ const Testimonios = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </>
     )
 }
 
