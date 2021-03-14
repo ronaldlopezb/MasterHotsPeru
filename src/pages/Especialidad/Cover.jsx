@@ -12,7 +12,7 @@ const Cover = () => {
                                 <div className="hero-content-wrap text-white text-center pt-5">
                                     <h1 className="text-white">Trusted Over 5K Lovely Client</h1>
                                     <p className="lead">Searching for that perfect domain? Progressively benchmark turnkey innovation after quality channels.</p>
-                                    <a href="#" className="btn btn-brand-03 mt-2">Work With Us</a>
+                                    <a href="/#" className="btn btn-brand-03 mt-2">Work With Us</a>
                                 </div>
                             </div>
                         </div>
