@@ -1,6 +1,6 @@
 import './App.css';
 
-import MenuPrincipal from './components/Estructura/MenuPrincipal'
+import MenuPrincipal from './components/Estructura/MenuPrincipal/MenuPrincipal'
 import Footer from './components/Estructura/Footer'
 
 import Inicio from './pages/Inicio/Inicio'
@@ -48,97 +48,39 @@ function App() {
         <MenuPrincipal />
         <Switch>
 
-          <Route path="/recuperar-cuenta" exact component={RecuperarClave} >
-            <RecuperarClave/>
-          </Route>
 
-          <Route path="/registro" exact component={Registrar} >
-            <Registrar/>
-          </Route>
 
-          <Route path="/acceder" exact component={Login} >
-            <Login/>
-          </Route>
 
-          <Route path="/404" exact component={Error404} >
-            <Error404/>
-          </Route>
-
-          <Route path="/agradecimiento" exact component={Agradecimiento} >
-            <Agradecimiento/>
-          </Route>
-
-          <Route path="/pronto-en-linea" exact component={Coming} >
-            <Coming/>
-          </Route>
-
-          <Route path="/cover" exact component={Cover} >
-            <Cover/>
-          </Route>
-
-          <Route path="/resultado-buscar-dominio" exact component={ResultadosBusqueda} >
-            <ResultadosBusqueda/>
-          </Route>
-
-          <Route path="/articulo" exact component={Articulo} >
-            <Articulo/>
-          </Route>
-
-          <Route path="/blog" exact component={BlogGrid} >
-            <BlogGrid/>
-          </Route>
-
-          <Route path="/vps" exact component={Vps} >
-            <Vps/>
-          </Route>
-
-          <Route path="/comparacion-precios" exact component={ComparacionPrecios} >
-            <ComparacionPrecios/>
-          </Route>
-
-          <Route path="/web-hosting-windows" exact component={WindowsHosting} >
-            <WindowsHosting/>
-          </Route>
-
-          <Route path="/web-hosting" exact component={WebHostingPaquetes} >
-            <WebHostingPaquetes/>
-          </Route>
-
-          <Route path="/paquetes" exact component={Paquetes} >
-            <Paquetes/>
-          </Route>
-
-          <Route path="/precios" exact component={Precios} >
-            <Precios/>
-          </Route>
-
-          <Route path="/politicas-privacidad" exact component={PoliticasPrivacidad} >
-            <PoliticasPrivacidad/>
-          </Route>
-
-          <Route path="/terminos-condiciones" exact component={TerminosCondiciones} >
-            <TerminosCondiciones/>
-          </Route>
-
-          <Route path="/blackfridaysingle" exact component={BlackFridaySingle} >
-            <BlackFridaySingle/>
-          </Route>
-
-          <Route path="/blackfridaysale" exact component={BlackFridaySale} >
-            <BlackFridaySale/>
-          </Route>
-
-          <Route path="/blackfridaycoming" exact component={BlackFridayComing} >
-            <BlackFridayComing/>
-          </Route>
-
-          <Route path="/nosotros" exact component={Nosotros} >
-            <Nosotros/>
-          </Route>
-
-          <Route path="/" exact component={Inicio} >
-            <Inicio />
-          </Route>
+            {/*Accesos*/}
+            <Route path="/recuperar-cuenta" exact component={RecuperarClave} > <RecuperarClave/> </Route>
+            <Route path="/registro" exact component={Registrar} > <Registrar/> </Route>
+            <Route path="/acceder" exact component={Login} > <Login/> </Route>
+            {/*Especialidades*/}
+            <Route path="/404" exact component={Error404} > <Error404/> </Route>
+            <Route path="/agradecimiento" exact component={Agradecimiento} > <Agradecimiento/> </Route>
+            <Route path="/pronto-en-linea" exact component={Coming} > <Coming/> </Route>
+            <Route path="/cover" exact component={Cover} > <Cover/> </Route>
+            <Route path="/resultado-buscar-dominio" exact component={ResultadosBusqueda} > <ResultadosBusqueda/> </Route>
+            {/*Blog*/}
+            <Route path="/articulo" exact component={Articulo} > <Articulo/> </Route>
+            <Route path="/blog" exact component={BlogGrid} > <BlogGrid/> </Route>
+            {/*Precios*/}
+            <Route path="/vps" exact component={Vps} > <Vps/> </Route>
+            <Route path="/comparacion-precios" exact component={ComparacionPrecios} > <ComparacionPrecios/> </Route>
+            <Route path="/web-hosting-windows" exact component={WindowsHosting} > <WindowsHosting/> </Route>
+            <Route path="/web-hosting" exact component={WebHostingPaquetes} > <WebHostingPaquetes/> </Route>
+            <Route path="/paquetes" exact component={Paquetes} > <Paquetes/> </Route>
+            <Route path="/precios" exact component={Precios} > <Precios/> </Route>
+            
+          <Route path="/politicas-privacidad" exact component={PoliticasPrivacidad} > <PoliticasPrivacidad/> </Route>
+          <Route path="/terminos-condiciones" exact component={TerminosCondiciones} > <TerminosCondiciones/> </Route>
+          <Route path="/blackfridaysingle" exact component={BlackFridaySingle} > <BlackFridaySingle/> </Route>
+          <Route path="/blackfridaysale" exact component={BlackFridaySale} > <BlackFridaySale/> </Route>
+          <Route path="/blackfridaycoming" exact component={BlackFridayComing} > <BlackFridayComing/> </Route>
+          <Route path="/nosotros" exact component={Nosotros} > <Nosotros/> </Route>
+          
+          {/*Inicio*/}
+          <Route path="/" exact component={Inicio} > <Inicio /> </Route>
 
         </Switch>
         <Footer/>
