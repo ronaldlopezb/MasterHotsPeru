@@ -13,9 +13,9 @@ const Hosting = () => {
                         <div className="col-md-6">
                             <div className="menu-item-wrap py-0 p-md-3 p-lg-3">
 
-                                {/* menu title with subtitle and icon item start */}
+                                {/* hosting-compartido" */}
                                 <div className="title-with-icon-item">
-                                    <a className="title-with-icon-link" href="SharedWebHosting">
+                                    <a className="title-with-icon-link" href="/hosting-compartido">
                                         <div className="media align-items-center">
                                             <div className="menu-item-icon rounded-circle primary-bg">
                                                 <i className="fas fa-server"></i>
@@ -28,11 +28,10 @@ const Hosting = () => {
                                         </div>
                                     </a>
                                 </div>
-                                {/* menu title with subtitle and icon item end */}
 
-                                {/* menu title with subtitle and icon item start */}
+                                {/* vps hosting */}
                                 <div className="title-with-icon-item">
-                                    <a className="title-with-icon-link" href="/vps-hosting.html">
+                                    <a className="title-with-icon-link" href="/vps-hosting">
                                         <div className="media align-items-center">
                                             <div className="menu-item-icon rounded-circle accent-bg">
                                                 <i className="fas fa-box"></i>
@@ -45,11 +44,10 @@ const Hosting = () => {
                                         </div>
                                     </a>
                                 </div>
-                                {/* menu title with subtitle and icon item end */}
 
-                                {/* menu title with subtitle and icon item start */}
+                                {/* cloud hosting */}
                                 <div className="title-with-icon-item">
-                                    <a className="title-with-icon-link" href="/cloud-hosting.html">
+                                    <a className="title-with-icon-link" href="/cloud-hosting">
                                         <div className="media align-items-center">
                                             <div className="menu-item-icon rounded-circle secondary-bg">
                                                 <i className="fas fa-cloud"></i>
@@ -62,15 +60,14 @@ const Hosting = () => {
                                         </div>
                                     </a>
                                 </div>
-                                {/* menu title with subtitle and icon item end */}
                             </div>
                         </div>
 
                         <div className="col-md-6">
                             <div className="menu-item-wrap py-0 p-md-3 p-lg-3">
-                                {/* menu title with subtitle and icon item start */}
+                                {/* email hosting*/}
                                 <div className="title-with-icon-item">
-                                    <a className="title-with-icon-link" href="/email-hosting.html">
+                                    <a className="title-with-icon-link" href="/email-hosting">
                                         <div className="media align-items-center">
                                             <div className="menu-item-icon rounded-circle twitter-bg">
                                                 <i className="fas fa-envelope"></i>
@@ -83,11 +80,10 @@ const Hosting = () => {
                                         </div>
                                     </a>
                                 </div>
-                                {/* menu title with subtitle and icon item end */}
 
-                                {/* menu title with subtitle and icon item start */}
+                                {/* windows vps hosting */}
                                 <div className="title-with-icon-item">
-                                    <a className="title-with-icon-link" href="/windows-vps-hosting.html">
+                                    <a className="title-with-icon-link" href="/windows-vps-hosting">
                                         <div className="media align-items-center">
                                             <div className="menu-item-icon rounded-circle btn-behance">
                                                 <i className="fab fa-windows"></i>

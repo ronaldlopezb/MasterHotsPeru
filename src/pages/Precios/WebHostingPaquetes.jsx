@@ -1,6 +1,6 @@
 import React from 'react'
 import CabeceraHosting from '../../components/Cabeceras/CabeceraHosting'
-import PreciosPaquete from '../../components/Precios/PreciosPaquete'
+import PreciosWebHosting from '../../components/Precios/PreciosWebHosting'
 import Faq from '../../components/Caracteristicas/Faq'
 
 const WebHostingPaquetes = () => {
@@ -8,7 +8,7 @@ const WebHostingPaquetes = () => {
         <>
             <div className="main">
                 <CabeceraHosting />
-                <PreciosPaquete />
+                <PreciosWebHosting />
                 <Faq />
             </div>
         </>
