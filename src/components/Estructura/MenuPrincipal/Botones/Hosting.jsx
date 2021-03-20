@@ -96,11 +96,10 @@ const Hosting = () => {
                                         </div>
                                     </a>
                                 </div>
-                                {/* menu title with subtitle and icon item end */}
 
-                                {/* menu title with subtitle and icon item start */}
+                                {/* wordpress hosting */}
                                 <div className="title-with-icon-item">
-                                    <a className="title-with-icon-link" href="/wp-hosting.html">
+                                    <a className="title-with-icon-link" href="/wordpress-hosting">
                                         <div className="media align-items-center">
                                             <div className="menu-item-icon rounded-circle dribbble-bg">
                                                 <i className="fab fa-wordpress"></i>
@@ -113,10 +112,8 @@ const Hosting = () => {
                                         </div>
                                     </a>
                                 </div>
-                                {/* menu title with subtitle and icon item end */}
                             </div>
                         </div>
-
                     </div>
 
                     {/* Mega Menu Banner */}
