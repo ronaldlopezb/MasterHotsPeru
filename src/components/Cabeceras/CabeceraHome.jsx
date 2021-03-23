@@ -12,7 +12,7 @@ const CabeceraHome = () => {
                                     <div className="headline mb-4">
                                         <p className="mb-0"><i className="fas fa-bell rounded-circle mr-2"></i> <span className="font-weight-bold">30% de descuento </span> en el primer año de contratación</p>
                                     </div>
-                                    <h1 className="text-white">Home - Unlimited Domain & Hosting in One Platform</h1>
+                                    <h1 className="text-white">Nueva Rama - Unlimited Domain & Hosting in One Platform</h1>
                                     <p className="lead">A ton of website hosting options, 99.9% uptime guarantee, free SSL certificate, easy WordPress installs.</p>
 
                                     <div className="action-btns mt-4">
