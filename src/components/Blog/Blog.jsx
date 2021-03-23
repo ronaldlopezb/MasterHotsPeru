@@ -8,7 +8,7 @@ const Blog = () => {
                     <div className="row justify-content-center">
                         <div className="col-md-9 col-lg-8">
                             <div className="section-heading text-center">
-                                <h2>Recent News and Events</h2>
+                                <h2>Nueva Rama 2 - Recent News and Events</h2>
                                 <p>
                                     Efficiently matrix robust total linkage after market positioning bandwidth. Holisticly restore B2B materials rather than brand flexible paradigms vis-a-vis mission-critical e-commerce.
                                 </p>
