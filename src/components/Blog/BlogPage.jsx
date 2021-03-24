@@ -13,7 +13,7 @@ const BlogPage = () => {
                                 </div>
                                 <div className="blog-content-wrap p-4">
                                     <div className="article-heading">
-                                        <h3 className="h5 mb-0">Nueva Rama V3.2 - Professionally cultivate testing</h3>
+                                        <h3 className="h5 mb-0">Nueva Rama V3.3 - Professionally cultivate testing</h3>
                                         <span> On 20 Mar, 2020</span>
                                     </div>
                                     <span className="border-shape my-3"></span>
