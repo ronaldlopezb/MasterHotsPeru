@@ -7,7 +7,7 @@ const ArticuloDetalle = () => {
                 <div className="post-preview"><img src="/img/blog/1-w.jpg" alt="article" className="img-fluid" /></div>
                 <div className="post-wrapper">
                     <div className="post-header">
-                        <h1 className="post-title">Minimalist Chandelier</h1>
+                        <h1 className="post-title">Nueva Rama 2 - Minimalist Chandelier</h1>
                         <ul className="post-meta">
                             <li>November 18, 2016</li>
                             <li>In <a href="/#">Branding</a>, <a href="/#">Design</a></li>
